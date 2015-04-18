@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-getDefaultProps() {
+getDefaultProps: function () {
 	return {
 		${1}: ${2}
-	}
+	};
 },
 ]]></content>
     <tabTrigger>gdp</tabTrigger>
