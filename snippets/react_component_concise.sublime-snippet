@@ -1,16 +1,15 @@
 <snippet>
     <content><![CDATA[
-import React from 'react'
+import React, { Component } from 'react'
 
-export default React.createClass({
+export default class ${1:Comp} extends Component {
 
-	${2:displayName: '${1:myAwesomeComponent}',}
+	static displayName = '${1:Comp}'
 
 	render() {
 		return ${0:<h1>BLAH!</h1>}
 	}
-
-})
+}
 
 ]]></content>
     <tabTrigger>rcs</tabTrigger>

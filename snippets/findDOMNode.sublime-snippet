@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+React.findDOMNode(${1:Comp})
+]]></content>
+    <tabTrigger>rfd</tabTrigger>
+    <scope>source.js</scope>
+    <description>React.findDOMNode(Component)</description>
+</snippet>
