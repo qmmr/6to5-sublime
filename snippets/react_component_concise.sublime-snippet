@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-import React, { Component } from 'react'
+import { Component${1:, PropTypes} } from 'react'
 
-export default class ${1:Comp} extends Component {
+export default class ${2:Comp} extends Component {
 
-	static displayName = '${1:Comp}'
+	static displayName = '${2:Comp}'$0
 
 	render() {
-		return ${0:<h1>BLAH!</h1>}
+		return ${3:<div />}
 	}
 }
 

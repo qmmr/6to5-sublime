@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+import { Component${2:, PropTypes} } from 'react'
+]]></content>
+	<tabTrigger>impr</tabTrigger>
+	<scope>source.js</scope>
+	<description>import React</description>
+</snippet>

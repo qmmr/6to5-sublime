@@ -1,18 +1,17 @@
 <snippet>
     <content><![CDATA[
-import React, { Component, PropTypes } from 'react'
+import { Component, ${1:PropTypes} } from 'react'
 
-class ${1:Comp} extends Component {
+class ${2:Comp} extends Component {
 
-	static displayName = '${1:Comp}'
-	static propTypes = {${2}}
+	static displayName = '${2:Comp}'$0
 
 	render() {
-		return ${0:<h1>BLAH!</h1>}
+		return ${3:<div />}
 	}
 }
 
-export default ${1}
+export default ${2}
 ]]></content>
     <tabTrigger>rcc</tabTrigger>
     <scope>source.js</scope>
