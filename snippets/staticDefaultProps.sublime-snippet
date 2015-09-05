@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-static defaultProps = { ${1}: ${2} }
+static defaultProps = { ${1}${2:: '${3:val}'} }
 ]]></content>
     <tabTrigger>sdp</tabTrigger>
     <scope>source.js</scope>

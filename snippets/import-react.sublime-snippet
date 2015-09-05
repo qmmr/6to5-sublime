@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-import { Component${2:, PropTypes} } from 'react'
+import ${1:React, }{ Component${2:, PropTypes}${3:, TestUtils} } from 'react'
 ]]></content>
 	<tabTrigger>impr</tabTrigger>
 	<scope>source.js</scope>
