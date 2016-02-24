@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-import ${1:React, }{ Component${2:, PropTypes}${3:, TestUtils} } from 'react'
+import React, { Component${1:, PropTypes} } from 'react'
 
-export default class ${4:Comp} extends Component {
+export class ${4:Comp} extends Component {
 
 	static displayName = '${4:Comp}'$0
 

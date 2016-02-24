@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+import React${1:, { PropTypes \}} from 'react'
+
+const ${2:Comp} = (${3:props}) => {
+	return $4
+}
+
+${2:Comp}.displayName = '${2:Comp}'$0
+
+]]></content>
+    <tabTrigger>rsc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: stateless component</description>
+</snippet>
