@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+var ${1} = React.createClass({
+
+    ${2:displayName: '${1:myAwesomeComponent}',}
+
+    render: function () {
+        return (
+            ${0:<h1>Foo</h1>}
+        );
+    }
+
+});
+
+]]></content>
+    <tabTrigger>rccs</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: component skeleton solo</description>
+</snippet>
