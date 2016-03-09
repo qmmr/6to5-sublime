@@ -4,11 +4,11 @@ import React from 'react';
 
 export default React.createClass({
 
-	${2:displayName: '${1:myAwesomeComponent}',}
+    ${2:displayName: '${1:myAwesomeComponent}',}
 
-	render: function () {
-		return ${0:<h1>BLAH!</h1>};
-	}
+    render: function () {
+        return ${0:<h1>BLAH!</h1>};
+    }
 
 });
 

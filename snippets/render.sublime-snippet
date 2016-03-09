@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 render: function () {
-	return (
-		${1:<h1>Foo</h1>};
-	);
+    return (
+        ${1:<h1>Foo</h1>};
+    );
 }${2:,}$0
 ]]></content>
     <tabTrigger>ren</tabTrigger>
